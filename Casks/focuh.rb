@@ -1,9 +1,9 @@
 cask "focuh" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.5.1"
-  sha256 arm:   "6460f8511a5b80300cf93bc3c8fc05c74049da7e8f62af32678c33f35a91d5c3",
-         intel: "3912be8610118abe043b617f696383ef50d45f7010d23752b826d5d87592bd25"
+  version "0.6.0"
+  sha256 arm:   "74f625a7d6073afadc05d5075d53624084ac8f8990ff3ccfee7f93221325cd8d",
+         intel: "dfe9fdaa6bbb4e7b326673f4f46ac009845e1891868aeea19dad23a2876f04ae"
 
   url "https://github.com/maxxthedeveloper/focuh-releases/releases/download/v#{version}/Focuh_#{version}_#{arch}.dmg"
   name "Focuh"
@@ -31,3 +31,4 @@ cask "focuh" do
     "~/Library/WebKit/com.focuh.app",
   ]
 end
+
